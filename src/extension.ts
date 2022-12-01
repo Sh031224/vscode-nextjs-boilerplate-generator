@@ -10,12 +10,12 @@ import { logger } from "./lib/logger";
 import { parseUriWithRoot } from "./lib/uri";
 
 const createCustomDir = async (domainName: string, repo: string) => {
-  const { structure, basePath } = getConfig("default");
+  const { structure } = getConfig("default");
 
   // create custom dir
   const structures = await Promise.all(
     structure.map((v) =>
-      createDirectory(parseUriWithRoot(`${repo}${basePath}/${v.replace(/\$domain/g, domainName)}`))
+      createDirectory(parseUriWithRoot(`${repo}/${v.replace(/\$domain/g, domainName)}`))
     )
   );
 
@@ -27,10 +27,9 @@ const createCustomDir = async (domainName: string, repo: string) => {
 
 const createPagesDir = async (pagesName: string, repo: string) => {
   const { extension, dir, filename } = getConfig("pages");
-  const { basePath } = getConfig("default");
 
   const uri = await createDirectory(
-    parseUriWithRoot(`${repo}${basePath}/${dir.replace(/\$dir/g, pagesName)}`)
+    parseUriWithRoot(`${repo}/${dir.replace(/\$dir/g, pagesName)}`)
   );
 
   return createFile(

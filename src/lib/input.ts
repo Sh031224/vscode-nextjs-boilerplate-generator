@@ -26,7 +26,7 @@ export const getDomainName = async () => {
   domainName = domainName.replace(/[^A-Za-z]/g, "");
 
   if (domainName === "") {
-    throw new Error("Pages name can only be in English.");
+    throw new Error("Domain name can only be in English.");
   }
 
   return domainName;

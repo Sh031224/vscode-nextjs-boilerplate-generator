@@ -1,6 +1,5 @@
 export type DefaultConfig = {
   structure: string[];
-  basePath: string;
   monorepo: string[];
 };
 

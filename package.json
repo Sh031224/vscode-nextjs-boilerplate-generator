@@ -48,17 +48,12 @@
         "NextjsBoilerplateGenerator.default.structure": {
           "type": "array",
           "default": [
-            "features/$domain/components",
-            "features/$domain/types",
-            "features/$domain/hooks",
-            "features/$domain/queries"
+            "src/features/$domain/components",
+            "src/features/$domain/types",
+            "src/features/$domain/hooks",
+            "src/features/$domain/queries"
           ],
           "description": "List of folders to be created, $domin is the input domain name value."
-        },
-        "NextjsBoilerplateGenerator.default.basePath": {
-          "type": "string",
-          "default": "src",
-          "description": "Project's base pathname."
         },
         "NextjsBoilerplateGenerator.default.monorepo": {
           "type": "array",
@@ -67,7 +62,7 @@
         },
         "NextjsBoilerplateGenerator.pages.dir": {
           "type": "string",
-          "default": "pages/$dir",
+          "default": "src/pages/$dir",
           "description": "The name of the default pages folder and files, $dir is the input pages name value."
         },
         "NextjsBoilerplateGenerator.pages.filename": {
