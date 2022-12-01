@@ -53,7 +53,7 @@
             "src/features/$domain/hooks",
             "src/features/$domain/queries"
           ],
-          "description": "List of folders to be created, $domin is the input domain name value."
+          "description": "A list of folders to create, excluding pages, where $domin is the input domain name value."
         },
         "NextjsBoilerplateGenerator.default.monorepo": {
           "type": "array",
@@ -68,7 +68,7 @@
         "NextjsBoilerplateGenerator.pages.filename": {
           "type": "string",
           "default": "index",
-          "description": "The name of the default pages files."
+          "description": "The name of the pages files."
         },
         "NextjsBoilerplateGenerator.pages.extension": {
           "type": "string",
