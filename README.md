@@ -1,5 +1,9 @@
 # Next.js boilerplate code generator
 
+[![The MIT License](https://flat.badgen.net/badge/license/MIT/orange)](https://github.com/Sh031224/vscode-nextjs-boilerplate-generator/blob/main/LICENSE)
+[![Installs](https://vsmarketplacebadge.apphb.com/installs/sh031224.nextjs-boilerplate-generator.svg)](https://marketplace.visualstudio.com/items?itemName=sh031224.sh031224.nextjs-boilerplate-generator)
+[![GitHub](https://flat.badgen.net/github/release/vscode-nextjs-boilerplate-generator)](https://github.com/Sh031224/vscode-nextjs-boilerplate-generator/releases)
+
 ### Description
 
 VS Code Extension for new feature development boilerplate code in Next.js.
@@ -14,7 +18,7 @@ VS Code Extension for new feature development boilerplate code in Next.js.
 
 ## Configuration
 
-You can change to the extension's settings through VS Code settings. You can customize:
+You can change to the extension's settings through VS Code settings. You can customize
 
 ### `NextjsBoilerplateGenerator.default.structure`
 
@@ -66,7 +70,7 @@ The name of the pages files.
 
 ### `NextjsBoilerplateGenerator.pages.extension`
 
-How to declare a function component. function or const
+Extension of pages component.
 
 - `enum`
   <br/><br/>
