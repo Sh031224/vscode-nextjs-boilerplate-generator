@@ -84,7 +84,7 @@
     },
     "commands": [
       {
-        "command": "extension.ggenNextjsBoilerplate",
+        "command": "extension.genNextjsBoilerplate",
         "title": "New Domain"
       }
     ]
