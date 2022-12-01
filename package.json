@@ -90,7 +90,8 @@
     ]
   },
   "scripts": {
-    "vscode:prepublish": "yarn run compile && vsce package",
+    "build": "vsce package",
+    "vscode:prepublish": "yarn run compile",
     "compile": "tsc -p ./",
     "lint": "eslint src --ext ts",
     "watch": "tsc -watch -p ./",
