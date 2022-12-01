@@ -1,12 +1,16 @@
 # Next.js boilerplate code generator
 
-## Description
+### Description
 
 VS Code Extension for new feature development boilerplate code in Next.js.
 
 ## ChangeLog
 
 ### [Click here](CHANGELOG.md)
+
+## Usage
+
+<img src="../assets/example.gif" alt="monorepo example" />
 
 ## Configuration
 
