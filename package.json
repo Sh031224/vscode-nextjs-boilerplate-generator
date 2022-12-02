@@ -2,7 +2,7 @@
   "name": "nextjs-boilerplate-generator",
   "displayName": "Next.js boilerplate code generator",
   "description": "For new feature development boilerplate code in Next.js",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "icon": "assets/logo.png",
   "publisher": "sh031224",
   "author": {
