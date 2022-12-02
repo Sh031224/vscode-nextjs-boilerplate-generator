@@ -1,10 +1,11 @@
 # Next.js boilerplate code generator
 
 [![The MIT License](https://flat.badgen.net/badge/license/MIT/orange)](https://github.com/Sh031224/vscode-nextjs-boilerplate-generator/blob/main/LICENSE)
-[![Installs](https://vsmarketplacebadge.apphb.com/installs/sh031224.nextjs-boilerplate-generator.svg)](https://marketplace.visualstudio.com/items?itemName=sh031224.sh031224.nextjs-boilerplate-generator)
+[![Installs](https://vsmarketplacebadge.apphb.com/installs/sh031224.nextjs-boilerplate-generator.svg)](https://marketplace.visualstudio.com/items?itemName=sh031224.nextjs-boilerplate-generator)
 [![GitHub](https://flat.badgen.net/github/release/sh031224/vscode-nextjs-boilerplate-generator)](https://github.com/Sh031224/vscode-nextjs-boilerplate-generator/releases)
 
 ### Description
+
 
 VS Code Extension for new feature development boilerplate code in Next.js.
 
