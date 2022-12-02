@@ -15,6 +15,14 @@ VS Code Extension for new feature development boilerplate code in Next.js.
 
 ## Usage
 
+Open Command palette `(Command/Ctrl + Shift + p)` -> New Domain
+
+input
+
+- pages name
+- domain name
+- if project is monorepo, select project
+
 <img src="assets/example.gif" alt="monorepo example" />
 
 ## Configuration

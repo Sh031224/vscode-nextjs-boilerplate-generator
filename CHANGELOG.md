@@ -1,7 +1,11 @@
-### New Features
+# Change Log
 
-<a name="1.0.0"></a>
+All notable changes to the "Next.js boilerplate code generator" extension will be documented in this file.
+
+## [1.0.1](#) (2022-12-02)
+
+- Update Docs
 
 ## [1.0.0](#) (2022-12-02)
 
-- Supported Monorepo, Next.13 app dir
+- Next.js, Monorepo, Next.13+
